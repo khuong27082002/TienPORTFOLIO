@@ -35,8 +35,8 @@ html {
     justify-content: space-between;
     width: 100%;
     height: auto;
-    min-height: max(100vh, 36rem);
-    min-height: max(100svh, 36rem);
+    min-height: max(105vh, 38rem);
+    min-height: max(105svh, 38rem);
     padding: 2vh 2vw;
     border-bottom: 3px solid var(--rose-soft);
     background:
@@ -359,8 +359,8 @@ nav {
 .contact_section{
     width: 100%;
     height: auto;
-    min-height: max(100vh, 36rem);
-    min-height: max(100svh, 36rem);
+    min-height: max(105vh, 38rem);
+    min-height: max(105svh, 38rem);
     position: relative;
     background-color: var(--rose-page);
     background:
@@ -712,8 +712,8 @@ nav {
 @media (max-width: 991.98px) {
     .home_section {
         height: auto;
-        min-height: 100vh;
-        min-height: 100svh;
+        min-height: 105vh;
+        min-height: 105svh;
         padding: 1.25rem;
         gap: 2rem;
         background-position: 68% center;
