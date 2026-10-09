@@ -365,7 +365,7 @@ nav {
     background-color: var(--rose-page);
     background:
         
-        url("assets/assets/img/backgroundintro.jpg") center 70% / cover no-repeat;
+        url("assets/assets/img/backgroundintro.jpg") center 70% / auto 120% no-repeat;
 }
 
 .contact_arrows {
