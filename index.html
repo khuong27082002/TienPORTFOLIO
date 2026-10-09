@@ -5,6 +5,255 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tien Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css?v=7" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="home_section container-fluid" id="home">
+      <nav>
+        <span>Thuy Tien</span>
+        <a class="nav_photo_link" href="#my-photo">My Photo</a>
+        <span class="nav_about_links">
+          <a href="#about-me">Who am i ?</a>
+          <br />
+          <a href="#about-me">Skill</a>
+        </span>
+        <a class="nav_contact_link" href="#contact-target">Contact</a>
+      </nav>
+
+      <span class="sub_hero_text">
+        <p>
+           I graduated with a degree in English Language from Can Tho University and hold a Teaching Certificate in Education. Throughout my academic journey, I have continuously developed my English proficiency, particularly in communication, pronunciation, vocabulary, and grammar, while also strengthening my ability to convey knowledge in a clear and effective manner.
+        </p>
+      </span>
+
+      <span class="hero_text">
+        NGUYEN THI
+        <br />
+        THUY TIEN
+      </span>
+      <a class="scroll_btn" href="#about-me">(Scroll to Explore)</a>
+    </div>
+
+    <div class="about_section container-fluid" id="about-me">
+      <img class="about_background is-active" src="assets/assets/img/background-106.jpg" alt="" aria-hidden="true" />
+      <img class="about_background" src="assets/assets/img/6.jpg" alt="" aria-hidden="true" />
+      <span class="about_span">Who am I?</span>
+      <div class="about_content">
+        <div class="about_topics">
+          <span>About me</span>
+          <span>Skills</span>
+        </div>
+        <div class="about_text">
+          In addition to my academic background, I have experience teaching English online to students of different proficiency levels. This experience has helped me develop skills in lesson planning, student engagement, monitoring learning progress, and adapting teaching methods to meet individual needs. I am a patient, responsible, enthusiastic, and dedicated person who strives to create a positive, comfortable, and effective learning environment for students.
+          your team.
+        </div>
+      </div>
+
+      <div class="skills">
+        <span>English Language Skills</span>
+        <span>Academic Skills</span>
+        <span>Communication and Teamwork Skills</span>
+        <span>Professional Skills</span>
+      </div>
+    </div>
+
+    <div class="projects_section container-fluid" id="my-photo">
+        <span class="project_title">My Photo And MY SKills</span>
+        
+        <div class="projects_container">
+            <button class="project project1 skill_project" type="button" aria-haspopup="dialog" aria-controls="english-skills-dialog" data-title="English Language Skills" data-skills="Listening|Speaking|Reading|Writing|Pronunciation|Grammar &amp; Vocabulary|Translation &amp; Interpretation">
+                <span>English Language Skills</span>
+                <img src="assets/assets/img/1.jpg" alt="" />
+            </button>
+            <div class="sub_container">
+                <button class="project project2 skill_project" type="button" aria-haspopup="dialog" aria-controls="english-skills-dialog" data-title="Academic Skills" data-skills="Critical thinking|Research skills|Academic writing|Presentation skills|Information analysis|Problem-solving">
+                    <span>Academic Skills</span>
+                    <img src="assets/assets/img/2.jpg" alt="" />
+                </button>
+                <button class="project project3 skill_project" type="button" aria-haspopup="dialog" aria-controls="english-skills-dialog" data-title="Communication and Teamwork Skills" data-skills="Communication skills|Interpersonal skills|Teamwork|Active listening|Time management|Adaptability|Creativity|Public speaking">
+                    <span>Communication and Teamwork Skills</span>
+                    <img src="assets/assets/img/3.jpg" alt="" />
+                </button>
+                <button class="project project4 skill_project" type="button" aria-haspopup="dialog" aria-controls="english-skills-dialog" data-title="Professional Skills" data-skills="Lesson planning|Classroom management|Teaching skills|Assessment|Giving feedback">
+                    <span>Professional Skills</span>
+                    <img src="assets/assets/img/4.jpg" alt="" />
+                </button>
+                <button class="project project5 skill_project" type="button" aria-haspopup="dialog" aria-controls="english-skills-dialog" data-title="Teaching Experience" data-description="Experienced in teaching English online to students across different age groups and proficiency levels, with the ability to adapt lessons to individual learning needs.">
+                    <span>Teaching Experience</span>
+                    <img src="assets/assets/img/5.jpg" alt="" />
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <dialog class="skills_dialog" id="english-skills-dialog" aria-labelledby="skills-dialog-title">
+        <div class="skills_dialog_header">
+            <h2 id="skills-dialog-title">English Language Skills</h2>
+            <button class="skills_dialog_close" type="button" aria-label="Close dialog">&times;</button>
+        </div>
+        <img class="skills_dialog_image" src="assets/assets/img/1.jpg" alt="English Language Skills" />
+        <ul class="skills_dialog_list"></ul>
+        <p class="skills_dialog_description" hidden></p>
+    </dialog>
+
+    <div class="contact_section container-fluid">
+        <span class="contact_social_link" id="contact-gmail" hidden><i class="fa-solid fa-envelope"></i>Gmail.</span>
+        <span class="contact_social_link" id="contact-facebook" hidden><i class="fa-brands fa-facebook-f"></i>Facebook.</span>
+        <span class="contact_social_link" id="contact-instagram" hidden><i class="fab fa-instagram"></i>Instagram.</span>
+        <span class="contact_social_link" id="contact-xxx" hidden><i class="fa-brands fa-tiktok"></i>XXX.</span>
+        <button class="contact_toggle" id="contact-target" type="button" aria-expanded="false" aria-controls="contact-gmail contact-facebook contact-instagram contact-xxx">
+            Wanna work with me
+        </button>
+        <svg class="contact_arrows" viewBox="0 0 1000 1000" aria-hidden="true" hidden>
+            <defs>
+                <marker id="contact-arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                    <path d="M 0 0 L 10 5 L 0 10 z" />
+                </marker>
+            </defs>
+            <path d="M 465 460 Q 395 385 315 325" marker-end="url(#contact-arrowhead)" />
+            <path d="M 535 460 Q 605 385 685 325" marker-end="url(#contact-arrowhead)" />
+            <path d="M 465 540 Q 395 615 315 675" marker-end="url(#contact-arrowhead)" />
+            <path d="M 535 540 Q 605 615 685 675" marker-end="url(#contact-arrowhead)" />
+        </svg>
+    </div>
+
+
+    <div class="footer container-fluid">
+        <span class="footer_title">
+            THUY 
+            <br/>
+            TIEN
+        </span>
+        <span class="footer_contact_link">Let's work together</span>
+        <div class="footer_nav">
+            <a href="#home">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#my-photo">Photo</a>
+            <a href="#contact-target">Contact</a>
+        </div>
+        <div class="footer_nav">
+            <span>Gmail.</span>
+            <span>Facebook.</span>
+            <span>Instagram.</span>
+            <span>XXX.</span>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const aboutBackgrounds = document.querySelectorAll(".about_background");
+      let activeAboutBackground = 0;
+
+      window.setInterval(() => {
+        aboutBackgrounds[activeAboutBackground].classList.remove("is-active");
+        activeAboutBackground = (activeAboutBackground + 1) % aboutBackgrounds.length;
+        aboutBackgrounds[activeAboutBackground].classList.add("is-active");
+      }, 5000);
+
+      const englishSkillsDialog = document.querySelector("#english-skills-dialog");
+      const skillsDialogTitle = englishSkillsDialog.querySelector("#skills-dialog-title");
+      const skillsDialogImage = englishSkillsDialog.querySelector(".skills_dialog_image");
+      const skillsDialogList = englishSkillsDialog.querySelector(".skills_dialog_list");
+      const closeSkillsDialogButton = englishSkillsDialog.querySelector(".skills_dialog_close");
+
+      const updateSkillsDialogImageLayout = () => {
+        if (skillsDialogImage.complete && skillsDialogImage.naturalWidth) {
+          skillsDialogImage.classList.toggle(
+            "is-landscape",
+            skillsDialogImage.naturalWidth > skillsDialogImage.naturalHeight
+          );
+        }
+      };
+
+      skillsDialogImage.addEventListener("load", updateSkillsDialogImageLayout);
+
+      document.querySelectorAll(".skill_project").forEach((card) => {
+        card.addEventListener("click", () => {
+          const image = card.querySelector("img");
+          skillsDialogTitle.textContent = card.dataset.title;
+          skillsDialogImage.src = image.src;
+          skillsDialogImage.alt = card.dataset.title;
+          skillsDialogImage.classList.remove("is-landscape");
+          updateSkillsDialogImageLayout();
+          skillsDialogList.replaceChildren();
+          const skillsDescription = englishSkillsDialog.querySelector(".skills_dialog_description");
+          if (card.dataset.description) {
+            skillsDialogList.hidden = true;
+            skillsDescription.textContent = card.dataset.description;
+            skillsDescription.hidden = false;
+          } else {
+            skillsDescription.hidden = true;
+            skillsDialogList.hidden = false;
+            card.dataset.skills.split("|").forEach((skill) => {
+              const item = document.createElement("li");
+              item.textContent = skill;
+              skillsDialogList.append(item);
+            });
+          }
+          englishSkillsDialog.showModal();
+        });
+      });
+
+      closeSkillsDialogButton.addEventListener("click", () => {
+        englishSkillsDialog.close();
+      });
+
+      englishSkillsDialog.addEventListener("click", (event) => {
+        if (event.target === englishSkillsDialog) {
+          englishSkillsDialog.close();
+        }
+      });
+
+      const contactSection = document.querySelector(".contact_section");
+      const contactButton = contactSection.querySelector(".contact_toggle");
+      const socialLinks = contactSection.querySelectorAll(".contact_social_link");
+      const contactArrows = contactSection.querySelector(".contact_arrows");
+      let hideSocialLinksTimeout;
+
+      contactButton.addEventListener("click", () => {
+        const isOpening = contactButton.getAttribute("aria-expanded") !== "true";
+        window.clearTimeout(hideSocialLinksTimeout);
+        contactButton.setAttribute("aria-expanded", String(isOpening));
+
+        if (isOpening) {
+          contactArrows.removeAttribute("hidden");
+          requestAnimationFrame(() => contactArrows.classList.add("is-open"));
+        } else {
+          contactArrows.classList.remove("is-open");
+        }
+
+        socialLinks.forEach((link) => {
+          if (isOpening) {
+            link.hidden = false;
+            link.classList.remove("is-closing");
+            requestAnimationFrame(() => link.classList.add("is-open"));
+          } else {
+            link.classList.remove("is-open");
+            link.classList.add("is-closing");
+          }
+        });
+
+        if (!isOpening) {
+          hideSocialLinksTimeout = window.setTimeout(() => {
+            contactArrows.setAttribute("hidden", "");
+            socialLinks.forEach((link) => {
+              link.hidden = true;
+              link.classList.remove("is-closing");
+            });
+          }, 350);
+        }
+      });
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tien Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="index.css?v=6" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   </head>
