@@ -449,8 +449,9 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* Hiá»u á»©ng khi di chuá»t */
-.contact_section span:nth-child(1):hover {
+/* HiÃ¡Â»Âu Ã¡Â»Â©ng khi di chuÃ¡Â»Ât */
+.contact_section span:nth-child(1):hover,
+.contact_section span:nth-child(1):active {
     background-color: #a8475b;
     color: var(--rose-light);
 }
@@ -478,8 +479,9 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* Hiá»u á»©ng khi di chuá»t */
-.contact_section span:nth-child(2):hover {
+/* HiÃ¡Â»Âu Ã¡Â»Â©ng khi di chuÃ¡Â»Ât */
+.contact_section span:nth-child(2):hover,
+.contact_section span:nth-child(2):active {
     background-color: #875866;
     color: var(--rose-light);
 }
@@ -506,8 +508,9 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* Hiá»u á»©ng khi di chuá»t */
-.contact_section span:nth-child(3):hover {
+/* HiÃ¡Â»Âu Ã¡Â»Â©ng khi di chuÃ¡Â»Ât */
+.contact_section span:nth-child(3):hover,
+.contact_section span:nth-child(3):active {
     background-color: #b95473;
     color: var(--rose-light);
 }
@@ -534,8 +537,9 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* Hiá»u á»©ng khi di chuá»t */
-.contact_section span:nth-child(4):hover {
+/* HiÃ¡Â»Âu Ã¡Â»Â©ng khi di chuÃ¡Â»Ât */
+.contact_section span:nth-child(4):hover,
+.contact_section span:nth-child(4):active {
     background-color: var(--rose-dark);
     color: var(--rose-light);
 }
@@ -574,6 +578,10 @@ nav {
 
 .contact_section .contact_social_link {
     transform-origin: center;
+}
+
+.contact_section .contact_social_link:active {
+    transform: scale(0.96);
 }
 
 .contact_section .contact_social_link.is-open {
